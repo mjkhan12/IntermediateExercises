@@ -1,0 +1,57 @@
+
+public class Paint {
+	private String name;
+	private int liters;
+	private int m;
+	double  price;
+	
+	public Paint(String name , int liters, double price, int m) {
+		this.name = name; 
+		this.liters = liters;
+		this.m = m;
+		this.price = price; 
+		
+	}
+	
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getLiters() {
+		return liters;
+	}
+
+
+	public void setLiters(int liters) {
+		this.liters = liters;
+	}
+
+
+	public int getM() {
+		return m;
+	}
+
+
+	public void setM(int ml) {
+		this.m = m;
+	}
+
+
+	public int getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+}
